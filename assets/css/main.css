@@ -2064,6 +2064,15 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 		}
+		#header:after {
+			content: '';
+			display: block;
+			height: 4px; /* Adjust for desired thickness */
+			background-color: #992AE1; /* Red color */
+			width: 100%;
+			margin: 0 auto; /* Center in the parent */
+		}
+		
 
 		#header .bottom {
 			-moz-flex-shrink: 0;
@@ -2093,6 +2102,7 @@ input, select, textarea {
 				#header .icons a:hover {
 					color: #fff;
 				}
+				
 
 	#logo {
 		position: relative;
