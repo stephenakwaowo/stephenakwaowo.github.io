@@ -2631,3 +2631,13 @@ input, select, textarea {
 				}
 
 	}
+
+	/* This targets the <h6> element for "Under Construction" and sets its size */
+#portfolio .item h6 {
+    font-size: 1.2em; /* You can adjust this value as needed */
+}
+
+/* This targets the <p> element for the subtitle and sets its size smaller than the <h6> */
+#portfolio .item p {
+    font-size: 0.8em; /* This should be smaller than the size of <h6> */
+}
