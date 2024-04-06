@@ -2678,3 +2678,12 @@ input, select, textarea {
     margin: 15px; /* Adds more space between items */
     padding: 10px; /* Adds more space inside each item */
 }
+
+a {
+    color: #FFFFFF; /* Normal state color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: #660066; /* Color of the link on hover */
+}
