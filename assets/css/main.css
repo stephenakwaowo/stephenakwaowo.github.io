@@ -2068,7 +2068,7 @@ input, select, textarea {
 			content: '';
 			display: block;
 			height: 4px; /* Adjust for desired thickness */
-			background-color: #CCCCCC; /* grey color */
+			background-color: #660066; /* purple color */
 			width: 100%;
 			margin-top: 20px; /* Add space above the line */
 			margin-bottom: 10px; /* Add space below the line if needed */
@@ -2686,4 +2686,8 @@ a {
 
 a:hover {
     color: #660066; /* Color of the link on hover */
+}
+
+#portfolio .item h6:hover, #portfolio .item p:hover {
+    color: #660066; /* The color the text will change to on hover */
 }
