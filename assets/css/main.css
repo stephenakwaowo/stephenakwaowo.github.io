@@ -2068,7 +2068,7 @@ input, select, textarea {
 			content: '';
 			display: block;
 			height: 4px; /* Adjust for desired thickness */
-			background-color: #004D4D; /* grey color */
+			background-color: #003366; /* dark blue color */
 			width: 100%;
 			margin-top: 20px; /* Add space above the line */
 			margin-bottom: 10px; /* Add space below the line if needed */
@@ -2086,10 +2086,15 @@ input, select, textarea {
     font-weight: bold;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 	}
+	.major h2 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 2em; /* Adjust the size as needed */
+		font-weight: 700; /* Bold weight */
+		color: #FFFFFF; /* White color for contrast */
+		line-height: 1.2; /* Adjust line height for spacing */
+	}
+	
 
-		
-		
-		
 
 		#header .bottom {
 			-moz-flex-shrink: 0;
