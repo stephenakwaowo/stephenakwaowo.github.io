@@ -2068,10 +2068,10 @@ input, select, textarea {
 			content: '';
 			display: block;
 			height: 4px; /* Adjust for desired thickness */
-			background-color: #D4AF37; /* Purple color */
+			background-color: #B5A642; /* Purple color */
 			width: 100%;
 			margin-top: 20px; /* Add space above the line */
-			margin-bottom: 20px; /* Add space below the line if needed */
+			margin-bottom: 10px; /* Add space below the line if needed */
 		}
 		
 		
