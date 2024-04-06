@@ -2691,3 +2691,12 @@ a:hover {
 #portfolio .item h6:hover, #portfolio .item p:hover {
     color: #660066; /* The color the text will change to on hover */
 }
+
+/* Targeting the links in the sidebar */
+#nav a {
+    transition: color 0.3s ease; /* Optional: for a smooth color transition */
+}
+
+#nav a:hover {
+    color: #660066; /* The color the text will change to on hover */
+}
