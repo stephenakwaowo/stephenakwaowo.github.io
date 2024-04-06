@@ -2064,14 +2064,16 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 		}
-		#header:after {
+		.major:after {
 			content: '';
 			display: block;
 			height: 4px; /* Adjust for desired thickness */
-			background-color: #992AE1; /* Red color */
+			background-color: #882AE1; /* Purple color */
 			width: 100%;
-			margin: 0 auto; /* Center in the parent */
+			margin-top: 20px; /* Add space above the line */
+			margin-bottom: 20px; /* Add space below the line if needed */
 		}
+		
 		
 
 		#header .bottom {
