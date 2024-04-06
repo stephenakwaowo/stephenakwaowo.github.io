@@ -2673,3 +2673,8 @@ input, select, textarea {
 #portfolio .item p {
     font-size: 0.6em; /* This should be smaller than the size of <h6> */
 }
+
+#portfolio .item {
+    margin: 15px; /* Adds more space between items */
+    padding: 10px; /* Adds more space inside each item */
+}
