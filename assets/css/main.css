@@ -2681,12 +2681,6 @@ input, select, textarea {
     padding: 10px; /* Adds more space inside each item */
 }
 
-/* Resize images */
-#portfolio .item img {
-    max-width: 100%; /* Ensures image is not larger than its container */
-    height: auto; /* Keeps the aspect ratio of the image */
-}
-
 /* Adjust the grid layout */
 #portfolio .row {
     display: grid;
