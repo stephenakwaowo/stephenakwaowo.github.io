@@ -2673,17 +2673,3 @@ input, select, textarea {
 #portfolio .item p {
     font-size: 0.6em; /* This should be smaller than the size of <h6> */
 }
-
-
-/* Adjust the padding and margin around portfolio items */
-#portfolio .item {
-    margin: 15px; /* Adds more space between items */
-    padding: 10px; /* Adds more space inside each item */
-}
-
-/* Adjust the grid layout */
-#portfolio .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusts the number of columns based on the screen width */
-    grid-gap: 20px; /* Adds space between grid items */
-}
