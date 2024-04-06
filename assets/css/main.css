@@ -2073,6 +2073,21 @@ input, select, textarea {
 			margin-top: 20px; /* Add space above the line */
 			margin-bottom: 10px; /* Add space below the line if needed */
 		}
+		/* For your name */
+	.major h2 {
+    color: #FFFFFF; /* White color for text */
+    font-weight: bold; /* Makes the text bold */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: text shadow for depth */
+	}
+
+/* For other headers, if you want them to have the same style */
+	h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+	}
+
+		
 		
 		
 
