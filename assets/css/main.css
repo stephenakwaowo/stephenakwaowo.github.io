@@ -1904,6 +1904,13 @@ input, select, textarea {
 		border: 0;
 	}
 
+	input[type="text"],
+	input[type="email"],
+	textarea {
+    color: #000000; /* This sets the text color to black */
+}
+
+
 /* Table */
 
 	table {
