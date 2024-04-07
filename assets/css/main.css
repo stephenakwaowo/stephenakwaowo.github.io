@@ -2234,6 +2234,41 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
+				#footer {
+					margin-left: auto; /* if you want to center the footer */
+					margin-right: auto; /* if you want to center the footer */
+					text-align: center; /* centers the text */
+					background-color: #1c1c1c; /* change the color if needed */
+					padding: 1.5em 0; /* vertical padding 1.5em, horizontal padding 0 */
+					font-size: 0.8em; /* adjust the font size as needed */
+					/* Remove the box-shadow if not needed, or adjust as below */
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+				}
+				
+				#footer .copyright {
+					cursor: default;
+					margin: 0; /* remove margin if needed */
+					padding: 0; /* remove padding if needed */
+					list-style: none; /* removes bullet points from list items if it’s an unordered list */
+				}
+				
+				/* if footer has list items */
+				#footer ul {
+					padding: 0;
+					margin: 0;
+					list-style: none; /* this removes bullets */
+				}
+				
+				#footer ul li {
+					display: inline-block; /* or 'inline' if you don't want block-level properties */
+					margin-right: 0.5em; /* adjust spacing between list items */
+				}
+				
+				#footer ul li:last-child {
+					margin-right: 0; /* ensures the last item doesn't have a right margin */
+				}
+				
+
 /* Main */
 
 	#main {
