@@ -209,5 +209,23 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				// Assuming jQuery is already being used as per the provided HTML
+				$(document).ready(function() {
+				  $('#nav').hover(
+					function() { 
+					  // Hover over code
+					  var $this = $(this);
+					  $this.addClass('expand');
+					}, function() {
+					  // Hover out code
+					  var $this = $(this);
+					  $this.removeClass('expand');
+					}
+				  );
+				});
+			  </script>
+			  
+
 	</body>
 </html>

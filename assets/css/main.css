@@ -2169,17 +2169,42 @@ input, select, textarea {
 		padding-left: 0;
 		margin-bottom: 0;
 	}
-/* The container for your sidebar */
+/* Default minimized sidebar styles */
 #nav {
-	width: 50px; /* Minimized width */
-	transition: width 0.5s;
-	/* Other styles like position, top, etc. */
+	width: 50px; /* Example width, adjust as needed */
+	overflow-x: hidden;
+	transition: width 0.5s; /* Smooth transition for expanding and collapsing */
   }
   
-  /* The container for your sidebar when hovered */
-  #nav:hover {
-	width: 200px; /* Expanded width */
+  #nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
   }
+  
+  #nav ul li {
+	text-align: center;
+	/* Hide text labels by default */
+	white-space: nowrap;
+	overflow: hidden;
+  }
+  
+  #nav ul li a {
+	display: block;
+	color: white;
+  }
+  
+  /* Expanded sidebar styles */
+  #nav:hover {
+	width: 200px; /* Example expanded width, adjust as needed */
+  }
+  
+  #nav:hover ul li a {
+	/* Show text labels on hover */
+	overflow: visible;
+  }
+  
+  
   
 		#nav ul li {
 			padding-left: 0;
