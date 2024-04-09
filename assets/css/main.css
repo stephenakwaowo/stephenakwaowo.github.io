@@ -2778,3 +2778,11 @@ a:hover {
 #footer ul li:last-child {
     margin-right: 0; /* ensures the last item doesn't have a right margin */
 }
+
+
+.subheader {
+    font-size: 0.8em; /* Smaller font size than the main header */
+    color: #666; /* Subdued text color, choose what fits your design */
+    margin-top: 0.5em; /* Space above the subheader */
+    font-style: italic; /* Optional: if you want the subheader to be italic */
+}
