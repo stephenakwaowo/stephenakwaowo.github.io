@@ -2170,34 +2170,6 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	/* Initial state of the sidebar (minimized) */
-#nav {
-	width: 50px; /* Adjust as needed */
-	transition: width 0.5s ease;
-	overflow: hidden;
-	/* Other styles for the sidebar */
-  }
-  
-  /* State of the sidebar when expanded */
-  #nav.expanded {
-	width: 250px; /* Adjust as needed */
-	/* Other styles for the expanded sidebar */
-  }
-  
-  /* Styling for the content inside the sidebar */
-  #nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	/* Additional styling */
-  }
-  
-  #nav li a {
-	padding: 10px;
-	color: white;
-	/* Additional styling */
-  }
-  
 		#nav ul li {
 			padding-left: 0;
 		}
