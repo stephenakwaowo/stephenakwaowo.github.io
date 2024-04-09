@@ -2169,7 +2169,18 @@ input, select, textarea {
 		padding-left: 0;
 		margin-bottom: 0;
 	}
-
+/* The container for your sidebar */
+#nav {
+	width: 50px; /* Minimized width */
+	transition: width 0.5s;
+	/* Other styles like position, top, etc. */
+  }
+  
+  /* The container for your sidebar when hovered */
+  #nav:hover {
+	width: 200px; /* Expanded width */
+  }
+  
 		#nav ul li {
 			padding-left: 0;
 		}
