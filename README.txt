@@ -1,1 +1,1 @@
-(Website of Stephen Akwaowoh)[ttps://stephenakwaowo.github.io/]
+[Website of Stephen Akwaowo](https://stephenakwaowo.github.io/)
