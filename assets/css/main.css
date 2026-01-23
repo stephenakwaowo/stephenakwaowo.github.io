@@ -171,6 +171,13 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
+
+	#header {
+	display: flex;
+	align-items: center;
+	gap: 0.75em;
+	}
+
 	#header h1 {
 	margin-top: 0.75em;
 	}
@@ -180,11 +187,22 @@ input, select, textarea {
 	}
 
 	#header img {
-	display: block;
-	width: 48px;      /* or whatever it was before */
+  	display: inline-block;
+	width: 48px;   
 	height: auto;
 	border-radius: 4px;
 	}
+
+	#header h1 {
+	margin: 0;
+	}
+
+	#header p {
+	margin: 0;
+	font-size: 0.85em;
+	opacity: 0.7;
+	}
+
 
 	header {
 		margin: 0 0 2em 0;
