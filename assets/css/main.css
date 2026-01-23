@@ -1879,12 +1879,6 @@ input, select, textarea {
   animation: pulse 2.5s ease-in-out infinite;
 }
 
-.item.wip a {
-  cursor: default;
-  pointer-events: none;
-}
-
-
 
 /* Form */
 
