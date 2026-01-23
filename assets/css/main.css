@@ -1848,11 +1848,17 @@ input, select, textarea {
 
 
 .now {
-  margin-top: 1em;
-  font-size: 0.9em;
-  color: rgba(255, 255, 255, 0.75);
-  letter-spacing: 0.02em;
+  margin: 1.25em 0 0.5em;
+  font-size: 0.85em;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
 }
+
+.now::before {
+  content: "● ";
+  color: #ffa500;
+}
+
 
 .now .label {
   text-transform: uppercase;
@@ -2759,6 +2765,10 @@ input, select, textarea {
     font-size: 1.0em; /* You can adjust this value as needed */
 }
 
+#portfolio .item:first-child h6 {
+  font-weight: 700;
+}
+
 #portfolio .item {
   margin-bottom: 2.5em;
 }
@@ -2793,6 +2803,13 @@ a:hover {
 
 #nav a:hover {
     color: #660066; /* The color the text will change to on hover */
+}
+
+.signature {
+  font-size: 0.65em;
+  opacity: 0.35;
+  text-align: center;
+  margin: 4em 0 2em;
 }
 
 
