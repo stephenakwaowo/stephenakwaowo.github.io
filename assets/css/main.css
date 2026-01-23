@@ -175,6 +175,17 @@ input, select, textarea {
 	margin-top: 0.75em;
 	}
 
+	#header {
+	padding-top: 1.5em;
+	}
+
+	#header .inner {
+	display: flex;
+	align-items: center;
+	gap: 0.75em;
+	}
+
+
 
 	header {
 		margin: 0 0 2em 0;
