@@ -2765,6 +2765,13 @@ input, select, textarea {
     font-size: 1.0em; /* You can adjust this value as needed */
 }
 
+.portfolio .image img {
+  width: 100%;
+  height: 220px;        /* adjust to taste */
+  object-fit: cover;
+  border-radius: 6px;  /* optional, but matches your aesthetic */
+}
+
 #portfolio .item:first-child h6 {
   font-weight: 700;
 }
