@@ -1846,6 +1846,23 @@ input, select, textarea {
 		}
 
 
+
+.now {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.02em;
+}
+
+.now .label {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  margin-right: 6px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 /* Portfolio Badges / Status Labels */
 
 .wip {
