@@ -1858,6 +1858,7 @@ input, select, textarea {
   margin-left: 8px;
   letter-spacing: 0.08em;
   vertical-align: middle;
+  white-space: nowrap;
   animation: pulse 2.5s ease-in-out infinite;
 }
 
