@@ -2765,6 +2765,10 @@ input, select, textarea {
     font-size: 1.0em; /* You can adjust this value as needed */
 }
 
+#portfolio .item {
+  margin-bottom: 2.5em;
+}
+
 /* This targets the <p> element for the subtitle and sets its size smaller than the <h6> */
 #portfolio .item p {
     font-size: 0.6em; /* This should be smaller than the size of <h6> */
