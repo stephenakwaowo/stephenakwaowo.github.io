@@ -179,13 +179,12 @@ input, select, textarea {
 	padding-top: 1.5em;
 	}
 
-	#header .inner {
-	display: flex;
-	align-items: center;
-	gap: 0.75em;
+	#header img {
+	display: block;
+	width: 48px;      /* or whatever it was before */
+	height: auto;
+	border-radius: 4px;
 	}
-
-
 
 	header {
 		margin: 0 0 2em 0;
