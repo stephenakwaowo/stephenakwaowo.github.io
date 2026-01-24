@@ -2248,12 +2248,14 @@ input, select, textarea {
 				}
 				
 
-	#logo {
-		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
-		cursor: default;
-	}
+		#logo {
+			position: relative;
+			margin: 1.75em 1.5em 1.5em 1.5em;
+			min-height: 48px;
+			padding-left: 64px; /* ← THIS is the key */
+			cursor: default;
+		}
+
 
 		#logo h1 {
 			position: relative;
@@ -2261,6 +2263,7 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
+			margin-top: 0.15em;
 		}
 
 		#logo p {
