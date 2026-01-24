@@ -1829,15 +1829,16 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 56px;
+			height: 56px;
 		}
 
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
-			}
+		.image.avatar48 img {
+			width: 56px;
+			height: 56px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
 
 		.image.fit {
 			display: block;
