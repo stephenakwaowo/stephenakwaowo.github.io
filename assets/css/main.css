@@ -2960,3 +2960,25 @@ a:hover {
     margin-top: 0.5em; /* Space above the subheader */
     font-style: italic; /* Optional: if you want the subheader to be italic */
 }
+
+
+/* Kill top white strip */
+html, body {
+  	background: rgb(40, 40, 50);
+}
+
+#header,
+#header .top,
+#main,
+#banner,
+#wrapper {
+  	background: rgb(40, 40, 50) !important;
+}
+
+/* In case HTML5UP uses pseudo-elements */
+body::before,
+#wrapper::before,
+#header::before {
+	background: none !important;
+	display: none !important;
+}
