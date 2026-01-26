@@ -171,12 +171,32 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
+	/* Diffused ambient glow */
 	#header::before {
 	content: "";
 	position: absolute;
 	top: 0;
-	right: 0;              /* inner edge */
-	width: 3px;            /* thin strip */
+	right: -30px;
+	width: 60px;
+	height: 100%;
+	background: linear-gradient(
+		to left,
+		rgba(155, 92, 255, 0.22),
+		rgba(92, 124, 255, 0.12),
+		rgba(34, 36, 46, 0)
+	);
+	filter: blur(8px);     /* YES — here */
+	pointer-events: none;
+	z-index: 0;
+	}
+
+	/* Sharp LED strip */
+	#header::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3px;
 	height: 100%;
 	background: linear-gradient(
 		180deg,
@@ -185,10 +205,10 @@ input, select, textarea {
 		#9b5cff
 	);
 	box-shadow:
-		0 0 12px rgba(155, 92, 255, 0.6),
-		0 0 24px rgba(92, 124, 255, 0.4);
-	opacity: 0.65;
+		0 0 10px rgba(155, 92, 255, 0.9),
+		0 0 20px rgba(92, 124, 255, 0.6);
 	pointer-events: none;
+	z-index: 1;
 	}
 
 
@@ -2972,7 +2992,7 @@ html, body {
 #main,
 #banner,
 #wrapper {
-  	background: rgb(38, 42, 54) !important;
+  	background: rgb(34, 36, 46) !important;
 } 
 
 /* In case HTML5UP uses pseudo-elements */
