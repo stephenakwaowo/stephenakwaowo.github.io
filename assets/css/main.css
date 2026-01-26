@@ -2972,8 +2972,8 @@ html, body {
 #main,
 #banner,
 #wrapper {
-  	background: rgb(40, 40, 50) !important;
-}
+  	background: rgb(34, 36, 46) !important;
+} 
 
 /* In case HTML5UP uses pseudo-elements */
 body::before,
