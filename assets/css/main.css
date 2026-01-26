@@ -187,11 +187,11 @@ input, select, textarea {
 	box-shadow:
 		0 0 12px rgba(155, 92, 255, 0.6),
 		0 0 24px rgba(92, 124, 255, 0.4);
-	opacity: 0.8;
+	opacity: 0.65;
 	pointer-events: none;
 	}
 
-	
+
 	#header {
 	position: relative;
 	}
