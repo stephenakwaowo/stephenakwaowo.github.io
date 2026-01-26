@@ -205,8 +205,8 @@ input, select, textarea {
 		#9b5cff
 	);
 	box-shadow:
-		0 0 10px rgba(155, 92, 255, 0.9),
-		0 0 20px rgba(92, 124, 255, 0.6);
+		0 0 10px rgba(155, 92, 255, 0.55),
+		0 0 26px rgba(92, 124, 255, 0.35);
 	pointer-events: none;
 	z-index: 1;
 	}
