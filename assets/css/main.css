@@ -171,7 +171,31 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 
+	#header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;              /* inner edge */
+	width: 3px;            /* thin strip */
+	height: 100%;
+	background: linear-gradient(
+		180deg,
+		#9b5cff,
+		#5c7cff,
+		#9b5cff
+	);
+	box-shadow:
+		0 0 12px rgba(155, 92, 255, 0.6),
+		0 0 24px rgba(92, 124, 255, 0.4);
+	opacity: 0.8;
+	pointer-events: none;
+	}
 
+	#header {
+	position: relative;
+	}
+	
+	
 	#header {
 	display: flex;
 	align-items: center;
@@ -1847,7 +1871,7 @@ input, select, textarea {
 		.image.avatar48 img:hover {
 			transform: scale(1.05);
 		}
-		
+
 		.image.fit {
 			display: block;
 			width: 100%;
