@@ -104,7 +104,7 @@
 							<div class="col-4 col-12-mobile">
 								<article class="item">
 									<a href="#" class="image fit">
-									<img src="images/lebron_lance.gif" alt="NBA Player Similarity & Archetype Model" />
+									<img id="nba-wip-gif" src="images/lebron_lance.gif" alt="NBA Player Similarity & Archetype Model" />
 									<h6>
 										NBA Player Similarity & Archetype Model
 										<span class="wip">🚧 Under Construction</span>
@@ -262,7 +262,24 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>			
+			<script src="assets/js/main.js"></script>	
+			<script>
+const nbaGifs = [
+  "images/lebron_lance.gif",
+  "images/dirk.gif",
+  "images/dog.gif"
+];
+
+const today = new Date();
+const dayNumber = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
+const gifIndex = dayNumber % nbaGifs.length;
+
+const nbaGif = document.getElementById("nba-wip-gif");
+
+if (nbaGif) {
+  nbaGif.src = nbaGifs[gifIndex];
+}
+</script>
 			
 	</body>
 </html>
