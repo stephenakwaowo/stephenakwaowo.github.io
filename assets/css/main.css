@@ -206,7 +206,7 @@ input, select, textarea {
 	);
 	box-shadow:
 		0 0 10px rgba(155, 92, 255, 0.55),
-		0 0 26px rgba(92, 124, 255, 0.35);
+		0 0 2px rgba(92, 124, 255, 0.35);
 	pointer-events: none;
 	z-index: 1;
 	}
@@ -2920,6 +2920,25 @@ a:hover {
 
 #portfolio .item h6:hover, #portfolio .item p:hover {
     color: #660066; /* The color the text will change to on hover */
+}
+
+.portfolio-subheader {
+	margin: 4.5em 0 2.25em 0;
+	padding-top: 2.5em;
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	text-align: center;
+}
+
+.portfolio-subheader h3 {
+	margin-bottom: 0.35em;
+	font-size: 1.65em;
+	color: #ffffff;
+}
+
+.portfolio-subheader p {
+	margin: 0;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 0.95em;
 }
 
 /* Targeting the links in the sidebar */
