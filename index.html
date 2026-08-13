@@ -396,31 +396,34 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>	
 			<script>
-const nbaGifs = [
-  "images/lebron_lance.gif",
-  "images/dirk.gif",
-  "images/brodie.gif",
-  "images/brodie_2.gif",
-  "images/brodie_3.gif",
-  "images/brodie_4.gif",
-  "images/brodie_5.gif",
-  "images/brodie_6.gif",
-  "images/brodie_7.gif",
-  "images/brodie_8.gif",
-  "images/brodie_9.gif",
-  "images/brodie_10.gif"
+	const nbaGifs = [
+		"images/lebron_lance.gif",
+		"images/dirk.gif",
+		"images/brodie.gif",
+		"images/brodie_2.gif",
+		"images/brodie_3.gif",
+		"images/brodie_4.gif",
+		"images/brodie_5.gif",
+		"images/brodie_6.gif",
+		"images/brodie_7.gif",
+		"images/brodie_8.gif",
+		"images/brodie_9.gif",
+		"images/brodie_10.gif"
+	];
 
+	const nbaGif = document.getElementById("nba-wip-gif");
 
-const today = new Date();
-const dayNumber = Math.floor(today.getTime() / (1000 * 60 * 60 * 24));
-const gifIndex = dayNumber % nbaGifs.length;
+	function updateNbaGif() {
+		const thirtyMinutes = 30 * 60 * 1000;
+		const timeBlock = Math.floor(Date.now() / thirtyMinutes);
+		const gifIndex = timeBlock % nbaGifs.length;
 
-const nbaGif = document.getElementById("nba-wip-gif");
+		if (nbaGif) {
+			nbaGif.src = nbaGifs[gifIndex];
+		}
+	}
 
-if (nbaGif) {
-  nbaGif.src = nbaGifs[gifIndex];
-}
+	updateNbaGif();
+
+	setInterval(updateNbaGif, 60 * 1000);
 </script>
-			
-	</body>
-</html>
